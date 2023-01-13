@@ -12,31 +12,26 @@ function NavBar() {
         <img src={logo} />
         <span>MVault</span>
       </div>
-      {document.cookie && <ul>
+       <ul>
         <NavLink activeClassName='active' to='/home'>Home</NavLink>
         <NavLink activeClassName='active'  to='/build'>Send Money</NavLink>
         <NavLink activeClassName='active'  to='/launch-date'>Add Friends</NavLink>
         <NavLink activeClassName='active'  to='/launch'>History</NavLink>
       </ul>
-      }
-      {!document.cookie && <ul>
-        <NavLink activeClassName='active' to='/home'>Home</NavLink>
-        </ul>
-      }
       <div className='cta'>
-        {!document.cookie && <ul>
+        <ul>
         <Link to="/login">
         <Button className= "inverted">Log In</Button>
         </Link>
         <Link to="/signup">
         <Button>Sign Up</Button>
         </Link>
-        </ul>}
-        {document.cookie && <ul>
-        <Link to="/logout">
+        </ul>
+        <ul>
+        <Link to="/signup">
         <Button className= "inverted">Log Out</Button>
         </Link>
-        </ul>}
+        </ul>
 
       </div>
     </nav>
