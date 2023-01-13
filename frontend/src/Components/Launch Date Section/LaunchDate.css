@@ -1,0 +1,61 @@
+.build-launch {
+    min-height: 100vh;    
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.launch-window {
+    margin: auto;
+    width: 25%;
+    margin-bottom: 7rem;
+    margin-left: -35rem;
+    /* border: 3px solid #73AD21; */
+}
+
+.build-launch h2 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.build-launch h3 {
+    margin-bottom: 0.6rem;
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.launch {
+    margin-top: 1.5rem;
+}
+
+.build-launch .earth {
+    width: 405px;
+    height: 304opx;
+    margin-left: -1rem;
+}
+
+.build-launch .rocket {
+    width: 250px;
+    height: 250px;
+    margin-left: -11rem;
+    margin-bottom: 18rem;
+}
+
+.build-launch .path {
+    width: 732px;
+    height: 121px;
+    position: relative;
+    margin-bottom: 33rem;
+}
+
+.build-launch .moon {
+    width: 253px;
+    height: 253px;
+    position: relative;
+    margin-right: 5rem;
+}
+
+.option:focus {
+    background-color: var(--bg-bigBox);
+}

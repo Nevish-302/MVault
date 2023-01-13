@@ -1,0 +1,48 @@
+.transaction {
+  color: var(--bg-heading);
+  overflow-y: hidden;
+  overflow-x: hidden;
+  width: 100%;
+  z-index: 100;
+  align-items: center;
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content:center;
+}
+.location {
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-around;
+  width: 50vw;
+  height: 18%;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.transaction-title {
+  font-size: 10vh;
+  color: white;
+  align-items: center;
+}
+.transaction-form {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  min-width: 300px;
+}
+.transaction-add {
+  min-width: 300px;
+  width: 30vw;
+}
+.transaction-input {
+  margin-top: .3rem;
+}
+.send {
+  display: flex;
+  flex-wrap: wrap;
+}

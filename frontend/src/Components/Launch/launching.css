@@ -1,0 +1,109 @@
+.history {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.moonImg {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: 8rem;
+  right: 8rem;
+}
+
+.rocketImg {
+  position: absolute;
+  top: 15rem;
+  left: 15rem;
+  transform: rotate(15deg);
+}
+
+.launching-page-content {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: auto;
+}
+
+.launching-page-content h3 {
+  font-weight: 900;
+}
+
+.trans-form {
+  display: flex; 
+}
+.trans {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 10vh;
+}
+.money {
+  display: flex;
+
+}
+.money-field {
+  min-width: 200px;
+  width: 30vw;
+  line-height: 1.5rem;
+  background-color: #2D2D2D;
+  border-radius: .5rem;
+  margin-right: .2rem;
+  margin-bottom: .2rem;
+  padding: 0.5rem;
+
+}
+.trans-head {
+  font-size: 1.2rem;
+  text-align: center;
+  border: 2px solid rgb(124, 121, 121);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+.money-head {
+  font-size: 1.2rem;
+  text-align: center;
+  border: 2px solid rgb(124, 121, 121);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  min-width: 200px;
+  width: 30vw;
+  line-height: 1.5rem;
+  margin-right: .2rem;
+  margin-bottom: .2rem;
+}
+
+.trans-input {
+  width: 10vw;
+  min-width: 150px;
+  margin-bottom: .2rem;
+  line-height: 1.5rem;
+  margin-right: .2rem;
+}
+.trans-add {
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+  margin-top: 0;
+  width: 3.6rem;
+  margin-right: .1rem;
+  border: 3px solid black;
+}
+.history h1 {
+  font-size: 4.5rem;
+  text-align: left;
+}
+
+.separator {
+  border : 3px solid white ;
+  width: 80vw;
+  margin-bottom: 2rem;
+}

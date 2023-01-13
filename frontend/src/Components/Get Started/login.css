@@ -1,0 +1,33 @@
+.login {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 40%;
+    padding-top: 15rem;
+    align-items: left;
+    margin-right: 20rem;
+}
+
+.login input {
+    border-radius: 10px;
+    width: 60%;
+    height: 3rem;
+    background-color: rgb(224, 221, 218);
+}
+
+.login label {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.login .loginBtn {
+    margin-top: 2rem;
+    width: 25%;
+}
+
+.login .sign {
+    width: 60%;
+    background-color: transparent;
+}

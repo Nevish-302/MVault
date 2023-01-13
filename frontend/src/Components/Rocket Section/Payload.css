@@ -1,0 +1,54 @@
+.payload-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+  max-width: 400px;
+  z-index: 10;
+}
+
+.payload {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+input {
+  /* width: 15px; */
+  font-size: var(--fs-small);
+  border: none;
+  border-radius: 0.5rem;
+  background: var(--bg-box);
+  color: var(--bg-heading);
+  padding: 0.5rem;
+}
+
+.payload-small-content p {
+  font-size: 0.7rem;
+  margin-top: 8px;
+}
+
+.payload-small-content {
+  margin-left: 5px;
+}
+
+.plus-button {
+  display: flex;
+  flex-direction: row;
+}
+
+.payload-size {
+  /* display: flex; */
+  flex-direction: row;
+  margin-top: 2rem;
+}
+
+label {
+  margin: 0 0.6rem;
+}
+
+.submit-btn {
+  margin-top: 1rem;
+  float: right;
+}

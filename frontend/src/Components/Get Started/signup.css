@@ -1,0 +1,33 @@
+.signup {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 45%;
+    padding-top: 8rem;
+    align-items: left;
+    margin-right: 18rem;
+}
+
+.signup input {
+    border-radius: 10px;
+    width: 60%;
+    height: 3rem;
+    background-color: rgb(224, 221, 218);
+}
+
+.signup label {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.signup .sign {
+    margin-top: 2rem;
+    width: 30%;
+}
+
+.signup .loginBtn  {
+    width: 60%;
+    background-color: transparent;
+}

@@ -1,0 +1,74 @@
+.hero {
+  height: 100vh;
+  overflow-y: hidden;
+  position: relative;
+}
+
+.hero img {
+}
+
+.ring1 {
+  height: 100vh;
+  position: absolute;
+  left: 5rem;
+}
+
+.ring2 {
+  height: 100vh;
+  position: absolute;
+  left: 25rem;
+}
+
+.moon {
+  height: 100vh;
+  position: absolute;
+  right: 0;
+}
+
+.main-content {
+  position: absolute;
+  z-index: 20;
+  top: 10rem;
+  left: 8rem;
+  width: 30vw;
+}
+
+.main-content h1 {
+  font-size: 4.5rem;
+}
+
+.main-content p {
+  font-size: 1.2rem;
+  color: var(--bg-para);
+}
+
+.distance img{
+    position: absolute;
+
+}
+
+.distance div {
+  padding-left: 6rem;
+}
+
+.distance div h3 {
+  font-size: var(--fs-logo);
+}
+
+.distance div p {
+  font-size: 1rem;
+}
+
+.rocket{
+    height: 48px;
+    width: 48px;
+}
+
+.boxes{
+    display: flex;
+    margin-top: 2.5rem;
+}
+
+.large-box{
+    width: 20rem !important;
+}
