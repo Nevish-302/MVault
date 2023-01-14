@@ -5,6 +5,7 @@ import Trans from "./Trans";
 function Launching() {
   const [list, setList] = React.useState([])
   const [owedTo, setOwedTo] = React.useState([])
+  const [render, Setrender] = React.useState(1)
   const [owedFrom, setOwedFrom] = React.useState([])
   const [balance, setBalance] = React.useState()
   const fuck = async () => {
@@ -55,11 +56,12 @@ function Launching() {
   console.log('list', list)
   const sort = (e) => {
     const {value} = e.target
-    value == 'Date' ? setList(list.sort((a, b) => (a.date).localeCompare(b.date))) : setList(list.sort((a, b) => {
-      console.log( a.description > b.description ? 1 : a.description < b.descripsstion ? -1 : 0, a.description, b.description)
-      return a.description > b.description ? 1 : a.description < b.description ? -1 : 0}))
+    value == 'Date' ? setList(list.sort((a, b) => {
+      return a.date > b.date ? 1 * render : a.date < b.date ? -1 * render : 0})) : setList(list.sort((a, b) => {
+      return a.description > b.description ? 1 * render : a.description < b.description ? -1 * render : 0}))
     console.log(list)
-  console.log(history)
+  console.log(history, render)
+  Setrender(r => r == 1 ? -1 : 1)
   }
   return (
     <div className="history">
@@ -74,8 +76,8 @@ function Launching() {
                 <div className="trans-head trans-input"> From </div>
                 <div className="trans-head trans-input"> Add Friend(s) </div>
                 <div className="trans-head trans-input"> Remove Friend(s) </div>
-                <div className="trans-head trans-input"> Amount </div>
-                <div className="trans-head trans-input" onClick={sort}> Description </div>
+                <div className="trans-head trans-input" > Amount </div>
+                <div className="trans-head trans-input" onClick={sort}> Description</div>
                 <div className="trans-head trans-input" onClick={sort}> Date </div>
                 <div className="trans-head" >Upd</div>
                 <div className="trans-head" > Del</div>
